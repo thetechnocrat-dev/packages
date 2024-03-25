@@ -126,7 +126,7 @@ export const MAX_BIOME = Biome.CORRUPTED;
  *
  * https://www.xdaichain.com/for-developers/developer-resources/gas-price-oracle
  */
-export const GAS_PRICE_API = 'https://blockscout.com/xdai/mainnet/api/v1/gas-price-oracle' as const;
+export const GAS_PRICE_API = 'https://corsproxy.io/?https://blockscout.com/xdai/mainnet/api/v1/gas-price-oracle' as const;
 
 /**
  * In case we cannot load gas prices from xDai, these are the default auto gas prices.
